@@ -27,7 +27,6 @@ with open('saved_comments.csv', 'r', newline='') as f:  # Opens the CSV files fr
 
                 subreddit = comment.subreddit
                 body = comment.body
-                body = body.encode("ascii", errors="ignore").decode()  # Removes special chars like emoji
                 link = comment.permalink
                 link = "https://reddit.com" + link
                 date = comment.created_utc
