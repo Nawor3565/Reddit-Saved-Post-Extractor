@@ -1,4 +1,4 @@
-# Reddit-Saved-Post_Extractor
+# Reddit-Saved-Post-Extractor
 ## REQUIREMENTS  
   Python 3.6 (untested with Python 3.7+)  
   PSAW (pip install psaw)  
